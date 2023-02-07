@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { randomColor } from "./composables/composable";
+import { randomColor } from "../composables/colorPicker";
 const { colors, message, matchColor } = randomColor();
 
 export default {
